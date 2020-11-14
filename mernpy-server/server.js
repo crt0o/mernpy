@@ -1,7 +1,8 @@
 // Some important stuff:
 // - Put your python dependencies (tensorflow) in the requirements.txt file
 // (you can get a list of dependencies along with their versions with 'pip3 freeze')
-// - The Procfile should contain the same thing as the start script in package.json
+// - The Procfile should contain the same thing as the start script in package.json,
+// with 'web: ' at the start
 // - Before pushing the files to heroku, run
 // heroku buildpacks:set heroku/python
 // and
